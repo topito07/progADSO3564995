@@ -51,6 +51,7 @@ void main(List<String> args) {
 
   //Condicional Múltiple
    String dia = 'Lunes';
+   
    switch (dia) {
     case 'Lunes':
       print('Inicio de semana técnica');
