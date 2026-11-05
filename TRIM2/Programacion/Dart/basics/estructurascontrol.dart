@@ -14,7 +14,7 @@ void main(List<String> args) {
 
   //Salida
   print("El area de un rectangulo es}: $area");
-  print("El perimetri del rectangulo es: $perimetro");
+  print("El perimetro del rectangulo es: $perimetro");
   
 
   //ESTRUCTURAS CONDICIONALES
@@ -50,7 +50,24 @@ void main(List<String> args) {
       }
 
   //Condicional Múltiple
-  
+   String dia = 'Lunes';
+   switch (dia) {
+    case 'Lunes':
+      print('Inicio de semana técnica');
+      break;
+
+    case 'Viernes':
+      print('Entrega de evidencias');
+      break;
+
+    case 'Sábado':
+    case 'Domingo':
+      print('Descanso');
+      break;
+
+    default:
+      print('Día de formación normal');
+  }
 
 }
 
