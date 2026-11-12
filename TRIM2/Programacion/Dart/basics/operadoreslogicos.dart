@@ -8,23 +8,21 @@ void main() {
     print('No cumple con los requisitos de ingreso.');
   }
   // 2. Operador OR
-  bool esSábado = true;
+  bool esSabado = true;
   bool esFestivo = false;
 
   // Si es sábado o es festivo
-  if (esSábado || esFestivo) {
+  if (esSabado || esFestivo) {
     print('Hoy no hay formación presencial.');
   } else {
-    print("Debes asistir al ambiente de aprendizaje.");
-     }
+    print("Debes asistir al ambiente de aprendizaje.");}
      bool sistemaCaido = false;
 
   // "sistema caído..."
   if (!sistemaCaido) {
     print('Puedes subir tu evidencia a la plataforma.');
   } else {
-    print('Espera a que el sistema se restablezca.');
-  }
+    print('Espera a que el sistema se restablezca.');}
   void main() {
   bool entregoEvidencia = true;
   double calificacion = 4.5;
